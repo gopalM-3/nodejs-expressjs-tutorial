@@ -4,7 +4,7 @@ const Blog = require("./schema and models/blog")
 
 const app = express()
 
-const dbURI = "mongodb+srv://zer0:zer0sama123@learning-mongodb.fcqng.mongodb.net/learning-mongodb?retryWrites=true&w=majority"
+const dbURI = // MongoDB Atlas URI
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then((result) => {
         app.listen(5000, () => {
