@@ -2,7 +2,7 @@ const express = require("express")
 const mongoose = require("mongoose")
 const personRouter = require("./person")
 const Person = require("./schema and models/person")
-const dbURI = "mongodb://127.0.0.1:27017/personDB"
+const dbURI = // MongoDB URI
 
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
 mongoose.connection
